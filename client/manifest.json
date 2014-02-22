@@ -1,0 +1,37 @@
+{
+  "name": "Steam Market Filter",
+  "version": "2.0",
+  "manifest_version": 2,
+  "minimum_chrome_version": "20.0",
+  "description": "Steam community market filter",
+  "homepage_url": "http://steamsearch.bassambarham.com",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://steamcommunity.com/market/*",
+        "http://steamcommunity.com/market"
+      ],
+      "js": [
+        "jquery-1.9.1.min.js",
+        "chrome-steam.user.js"
+      ],
+      "css": [
+        //"style.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png" 
+  },
+  "permissions": [
+    "tabs", 
+    "http://raw.github.com/*",
+    "https://raw.github.com/*",
+    "http://steamcommunity.com/*",
+    "https://steamcommunity.com/*",
+    "http://*.steamcommunity.com/*",
+    "https://*.steamcommunity.com/*"
+  ]
+}
