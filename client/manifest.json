@@ -15,9 +15,6 @@
         "jquery-1.9.1.min.js",
         "chrome-steam.user.js"
       ],
-      "css": [
-        //"style.css"
-      ],
       "run_at": "document_start"
     }
   ],
