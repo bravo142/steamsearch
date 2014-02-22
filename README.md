@@ -11,3 +11,7 @@ Current supported games:
 Project website:
 
 http://steamsearch.bassambarham.com
+
+Chrome Extension:
+
+https://chrome.google.com/webstore/detail/steam-market-filter/emdpoeanmcbopmmdomongbohbmiolmom
