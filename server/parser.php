@@ -27,15 +27,12 @@
 			$item['item_slot'] = 'weapon';
 
 		foreach($item['used_by_heroes'] as $k => $v) {
-			$heroes[$k][] = array(
-						'name' => (isset($item['item_slot'])) ? '('.$item['item_slot'].') '.$item_name : $item_name,
-						'key' => $item_name
-						);
+			$heroes[$k][isset($item['item_slot'])? $item['item_slot']: 'General Items'][] =  $item_name;
 		}
 	}
 
 	foreach($heroes as $name => $hero) {
-		file_put_contents('json/'.$name.'.json', json_encode($hero));
+		file_put_contents('json/v2/'.$name.'.json', json_encode($hero));
 	}
 
 ?>
