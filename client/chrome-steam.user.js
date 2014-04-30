@@ -383,7 +383,7 @@ function updateHeroItemsList(){
     buildHeroItemList(hero_data);
   } else {
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://raw.github.com/bravo142/steamsearch/master/server/json/v2/"+hero+".json", true);
+    xhr.open("GET", "https://raw.githubusercontent.com/bravo142/steamsearch/master/server/json/v2/"+hero+".json", true);
     xhr.onreadystatechange = function() {
 
       if (xhr.readyState == 4 && xhr.response ) {

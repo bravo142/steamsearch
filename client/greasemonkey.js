@@ -411,7 +411,7 @@ function updateHeroItemsList(){
 
   	GM_xmlhttpRequest ( {
     method:     "GET",
-    url:        "https://raw.github.com/bravo142/steamsearch/master/server/json/v2/"+hero+".json",
+    url:        "https://raw.githubusercontent.com/bravo142/steamsearch/master/server/json/v2/"+hero+".json",
     headers:    {
         "Content-Type": "application/x-www-form-urlencoded"
     },

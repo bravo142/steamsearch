@@ -1,6 +1,6 @@
 {
   "name": "Steam Market Filter",
-  "version": "2.1",
+  "version": "2.1.2",
   "manifest_version": 2,
   "minimum_chrome_version": "20.0",
   "description": "Steam community market filter",
@@ -23,8 +23,8 @@
     "128": "icon128.png" 
   },
   "permissions": [
-    "http://raw.github.com/*",
-    "https://raw.github.com/*",
+    "http://raw.githubusercontent.com/*",
+    "https://raw.githubusercontent.com/*",
     "http://steamcommunity.com/*",
     "https://steamcommunity.com/*",
     "http://*.steamcommunity.com/*",
