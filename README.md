@@ -8,13 +8,6 @@ Current supported games:
 - DotA2
 - Steam section in the market place
 
-Project website:
-
-http://steamsearch.bassambarham.com
-
-Donations:
-
-http://steamsearch.bassambarham.com/donate
 
 Chrome Extension:
 
